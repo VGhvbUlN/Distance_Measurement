@@ -5,6 +5,7 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(pulsePin, OUTPUT);
   pinMode(echoPin, INPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
